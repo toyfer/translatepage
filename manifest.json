@@ -1,0 +1,13 @@
+﻿{
+  "manifest_version": 2,
+  "name": "ページ翻訳",
+  "version": "1.0",
+  "description": "現在のページをGoogle翻訳で翻訳します",
+  "permissions": ["activeTab", "tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "ページを翻訳"
+  }
+}
